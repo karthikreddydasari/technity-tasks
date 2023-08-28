@@ -1,0 +1,236 @@
+*{
+    font-family: 'Bricolage Grotesque', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+.navbar{
+    display: flex;
+     justify-content: space-between;
+     background-color: #303030;
+
+     position: absolute;
+     width: 100%;
+     bottom: 88%;
+     height: 80px;
+     
+}
+.links ul
+{
+    display: flex;
+    justify-content: space-between;
+}
+.links ul li{
+    list-style-type: none;
+    margin: auto 19px;
+    padding: 10px;
+    color: aliceblue;margin-top: 17px;
+    font-size: larger;
+}
+.img1{
+    margin-left: 60px;
+    margin-top: 6px;
+}
+.img2{
+    margin-right: 10px;
+    margin-top: 12px;
+}
+
+
+.img3{
+    position: relative;
+}
+.text{
+    position: absolute;
+    bottom:8%;
+    margin-left: 80px;
+    color: #ffffff;
+}
+.title{
+    font-size: 110px;
+}
+.lorem{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif; 
+}
+.register{
+    width:260px;
+    background-color: #e8631c;
+    padding: 12px;
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 30px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+.images{
+    display: grid;
+    grid-template-columns:repeat(3,auto);
+    gap: 10px;
+   margin-top: 70px;
+  
+  
+}
+.fhead{
+    text-align: center;
+    font-family:'Montserrat', sans-serif ;
+}
+.first{
+  padding-top:50px ;
+  padding-left: 30px;
+   margin-top: -5px;
+    background-color: #e8631c;
+}
+.lo{
+    font-family:'Montserrat', sans-serif ;
+    text-align: center;
+    margin-top: 5px;
+}
+.country{
+    text-align: center;
+    color: #ffffff;
+}
+.info{
+    display: grid;
+    grid-template-columns:repeat(3,auto);
+    gap: 10px;
+   
+    background-color: #e8631c;
+}
+.divv{
+    background-color: #303030;
+    color: #ffffff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.second{
+    background-color: #303030;
+    padding: 60px;
+}
+.shead{
+    text-align: center;
+}
+.sbox{
+    background-color: #e8631c;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.cost{
+    padding: 10px;
+    background-color: #303030;
+    color: #ffffff;
+    width: 250px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.sgrid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 50px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+
+}
+.subthird{
+    display: flex;
+}
+.thbox{
+    background-color:#e8631c;
+    padding: 60px;
+   
+    width: 40%;
+    padding-top: 200px;
+}
+.subfourth{
+    display: flex;
+}
+.thfourth{
+    background-color:#e8631c;
+    
+   padding: 100px;
+    width: 50%;
+    padding-top: 200px;
+      
+}
+
+.fifth{
+    background-color: #303030;
+    padding: 50px;
+   
+}
+.subfifth{
+    text-align: center;
+    padding: 50px;
+}
+
+
+.fgrid{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 80px;
+   
+    
+}
+.inff{
+    margin-bottom: 100px;
+    margin-left: 0%;
+    padding: 50px;
+}
+.sinfo{
+    background-color: #e8631c;
+    opacity: 0.7;
+       position: absolute;
+      width: 100%;
+ height: 805px;
+ bottom: 0;
+    
+}
+.six{
+    position: relative;
+}
+.subinfo{
+    background-color: #e8631c;
+    margin-top: -5px;
+    text-align: center;
+    padding: 80px;
+}
+.below{
+    display: flex;
+    padding: 30px;
+    margin-left: 150px;
+}
+.footer{
+    display: flex;
+    gap: 60px;
+    padding: 50px;
+}
+.one{
+    width: 45%;
+    margin-right: 150px;
+    
+}
+.two ul li{
+    list-style-type: none;
+}
+.three ul li{
+    list-style-type: none;
+}
+.four ul li{
+    list-style-type: none;
+}
+.ic{
+    margin-top: 30px;
+    
+}
