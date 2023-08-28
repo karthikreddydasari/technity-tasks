@@ -1,1 +1,0 @@
-# technity-tasks
