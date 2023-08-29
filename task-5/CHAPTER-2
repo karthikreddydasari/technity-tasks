@@ -1,0 +1,54 @@
+1. True - T
+   False - F
+2. not, or, and
+3. ______ and ________
+   True and True is True
+   True and False is False
+   False and True is False
+   False and False is False
+  ________ or ________
+   True or True is True
+   True or False is True
+   False or True is True
+   False or False is False
+  _______ not ________
+   not True is False
+   not False is True
+4.  False
+    False
+    True
+    False
+    False
+    True
+5.   ==, !=, <, >, <=, and >=
+6.   == is the operator that compares two values
+     = is the assignment operator that stores a value in a variable
+7.  A condition is an expression used in a flow control statement that evaluates to a Boolean value.
+8.  The three blocks are everything inside the if statement and the lines print('bacon') and print('ham').
+     print('eggs')
+      if spam > 5:
+    print('bacon')
+     else:
+    print('ham')
+    print('spam')
+9.   if spam == 1:
+     print('Hello')
+    elif spam == 2:
+     print('Howdy')
+    else:
+     print('Greetings!')
+10.  Ctrl - C
+11.  The break statement in Python is used to terminate the loop or statement in which it is present.
+     continue statement is opposite to that of the break statement, instead of terminating the loop, it forces to execute the next iteration of the loop.
+12.  range(10) call ranges from 0 up to (but not including) 10,
+     range(0, 10) explicitly tells the loop to start at 0,
+     range(0, 10, 1) explicitly tells the loop to increase the variable by 1 on each iteration.
+13.   ________ for _______
+      for i in range(1,11):
+       print(i)
+     ______while______
+       i = 1
+      while i <= 10:
+      print(i)
+       i = i + 1
+14.   spam.bacon()
