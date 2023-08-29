@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    long n,m,a;
+    scanf("%ld %ld %ld",&n,&m,&a);
+    long flagstones = ceil((double)n / a)*ceil((double)m / a);
+    printf("%ld\n", flagstones);
+    return 0;
+}
