@@ -1,0 +1,28 @@
+long evensum(long n) {
+    if (n <= 0)
+        return 0;
+ long a = 1;
+ long b = 2;
+ sum = 0;
+     while (b <= n) {
+         if (b % 2 == 0) {
+            sum =sum+ b;
+        }
+       long temp = a + b;
+        a = b;
+        b = temp;
+    }
+  return sum;
+}
+
+int main() {
+    int t; 
+    scanf("%d",&t);
+    while (t--) {
+        long n;
+        scanf("%ld",&n);
+  long k = evensum(n);
+        printf("%ld\n",k);
+    }
+    return 0;
+}
