@@ -1,0 +1,34 @@
+int small(int n) {
+    int num = 1;
+    int m = 0;
+    while (!m) {
+        int k=1;
+    for (int i=1;i<=n;i++) {
+            if(num%i!= 0) {
+                k= 0;
+                break;
+            }
+        }
+    if (k) {
+            m=1;
+        } else {
+            num++;
+        }
+    }
+    
+    return num;
+}
+
+
+int main(){
+    int t; int num=1;
+    scanf("%d",&t);
+    for(int a0 = 0; a0 < t; a0++){
+        int n;
+    scanf("%d", &n);
+    int result = small(n);
+    printf("%d\n", result);
+    }
+    return 0;
+}
+    
