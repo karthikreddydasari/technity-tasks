@@ -4,6 +4,7 @@ def diagonalDifference(arr):
     n=len(arr)
     for i in range(0,n):
         k = k + arr[i][i]
-        m = m + arr[i][n-i-1]
+   for j in range(0,n):
+        m = m + arr[j][n-j-1]
     
     return abs(k - m)
