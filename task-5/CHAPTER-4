@@ -1,0 +1,23 @@
+1.  []  The empty list value that contains no items.
+2.  spam[2] = 'hello'
+3.  'd'
+4.  'd'
+5.  ['a', 'b']
+6.  1
+7.  [3.14, 'cat', 11, 'cat', True, 99]
+8.  [3.14, 11, 'cat', True]
+9.  The operator for list concatenation is +, while the operator for replication is *
+10. append() adds the element at last index position in the list
+    whereas inser() can adds the element at anywhere in the list
+11.  The del statement is good to use when you know the index of the value you want to remove from the list.
+     The remove() method is useful when you know the value you want to remove from the list
+12.  Both lists and strings can be passed to len(), have indexes and slices, be used in for loops,
+     be concatenated or replicated, and be used with the in and not in operators
+13.  Lists are mutable; they can have values added, removed or changed. Tuples are immutable; they cannot be changed at all.
+     Also, tuples are written using parentheses ( ), while lists use the square brackets  [ ].
+14.  (42,)
+15.  tuple() and list() functions
+16.  They contain references to list values.
+17.  copy.copy(), can be used to make a duplicate copy of a mutable value like a list
+      If the list you need to copy contains lists, then use the copy.deepcopy() function instead of copy.copy(). 
+      The deepcopy() function will copy these inner lists as well.
