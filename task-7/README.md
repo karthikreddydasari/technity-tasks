@@ -1,2 +1,2 @@
-I've tried all the problems but out of all two of them i got some errors. 
-First time i try to write the code in python
+I've tried all the problems some of them had taken time.
+The first time i try to write the code in Python
