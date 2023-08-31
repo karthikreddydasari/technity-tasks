@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char num[100];
+    gets(num);
+    if (strstr(num, "0000000") || strstr(num, "1111111")){
+        printf("YES");
+        }
+    else{
+        printf("NO");}
+    return 0;
+}
