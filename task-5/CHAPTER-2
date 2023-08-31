@@ -43,6 +43,7 @@
 12.  range(10) call ranges from 0 up to (but not including) 10,
      range(0, 10) explicitly tells the loop to start at 0,
      range(0, 10, 1) explicitly tells the loop to increase the variable by 1 on each iteration.
+     They literally say all the same.
 13.   ________ for _______
       for i in range(1,11):
        print(i)
