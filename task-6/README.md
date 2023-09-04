@@ -5,4 +5,4 @@ As of now, only the following will run.
 The bot can only understand the input '/start', '/stop', '/help', and anything other than these commands will give output that it didn't understand.
 
 
-![SS](ezgif.com-video-to-gif (1).gif)
+
